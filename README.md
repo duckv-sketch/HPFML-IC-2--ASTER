@@ -36,7 +36,7 @@ Training HPFML follows the same procedure, and the resulting outputs are stored 
 Training IC2–ASTER1.ipynb  follows the same procedure, and the resulting outputs are stored at: (https://drive.google.com/drive/folders/15HGTmJDijXHBPVg4aSFKJXH6l8fraoxy?usp=drive_link).
 
 
-## The SEED-VIG (Zheng and Lu, Journal of Neural Engineering, 2017) and SEED-VRW (Y. Luo, W. Liu, H. Li, et al.) datasets, along with the corresponding results and training code, will be fully released upon paper acceptance.
+## The SEED-VIG and SEED-VRW datasets, along with the corresponding results and training code, will be fully released upon paper acceptance.
 
 Prerequisites:
 
