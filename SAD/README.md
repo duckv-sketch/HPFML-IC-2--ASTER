@@ -13,6 +13,8 @@ We used three public datasets in this study:
 - [SEED-VIG](ZHENG, Wei-Long; LU, Bao-Liang. A multimodal approach to estimating vigilance using EEG and forehead EOG. \emph{Journal of neural engineering}, 2017, 14.2: 026017.)
 - [EED-VRW](Y. Luo, W. Liu, H. Li, Y. Lu, and B.-L. Lu, “A cross-scenario and cross-subject domain adaptation method for driving fatigue detection,” \emph{Journal of neural engineering}, vol. 21, no. 4, Aug. 2024, Art. no.046004.)
 
+At present, we only provide results on the SAD dataset; the complete code and full training outputs for both stages will be released upon paper acceptance.
+
 After downloading the datasets, you can prepare them as follows:
 ```
 python Data_Preprocessing.py
@@ -32,6 +34,9 @@ Training HPFML follows the same procedure, and the resulting outputs are stored 
 - IC2–ASTER1.ipynb
 ```
 Training IC2–ASTER1.ipynb  follows the same procedure, and the resulting outputs are stored at: (https://drive.google.com/drive/folders/15HGTmJDijXHBPVg4aSFKJXH6l8fraoxy?usp=drive_link).
+
+
+The SEED-VIG (Zheng and Lu, Journal of Neural Engineering, 2017) and SEED-VRW (Y. Luo, W. Liu, H. Li, et al.) datasets, along with the corresponding results and training code, will be fully released upon paper acceptance.
 
 Prerequisites:
 
