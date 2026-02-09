@@ -45,6 +45,7 @@ Prerequisites:
 ---
 
 D. Implementation details
+
 a) Stage 1 - HPFML:
 • Data split and local meta-learning setup: For all datasets,
 each client (subject or acquisition device) is treated
