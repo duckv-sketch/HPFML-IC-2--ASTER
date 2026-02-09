@@ -16,21 +16,26 @@ We used three public datasets in this study:
 After downloading the datasets, you can prepare them as follows:
 ```
 python Data_Preprocessing.py
-https://drive.google.com/drive/folders/15HGTmJDijXHBPVg4aSFKJXH6l8fraoxy?usp=sharing
+
 ```
 
+Running python Data_Preprocessing.py generates the preprocessed dataset cache file: SAD_cache_paper_augSelect_hp0.5_lp50.0_fs250_t-1.0_2.0_aug1x1.npz.
+The resulting cache file is available at: https://drive.google.com/drive/folders/15HGTmJDijXHBPVg4aSFKJXH6l8fraoxy?usp=drive_link
+
 ## Training HPFML
-
+```
 - HPFML1.ipynb
-
+```
+Training HPFML follows the same procedure, and the resulting outputs are stored at: (https://drive.google.com/drive/folders/15HGTmJDijXHBPVg4aSFKJXH6l8fraoxy?usp=drive_link).
 ## Training HPFML-IC$^2$--ASTER
-
+```
 - IC2–ASTER1.ipynb
+```
+Training IC2–ASTER1.ipynb  follows the same procedure, and the resulting outputs are stored at: (https://drive.google.com/drive/folders/15HGTmJDijXHBPVg4aSFKJXH6l8fraoxy?usp=drive_link).
 
 Prerequisites:
 
 -The proposed framework comprises two sequential stages. Both stages were implemented in PyTorch (v2.4.0) on the NVIDIA GPU Cloud (NGC) platform, using CUDA 12.6 for GPU acceleration, and executed on a high-performance GPU supercomputing environment.
-
 
 ---
 
@@ -69,6 +74,7 @@ hypernetwork parameters and the embedding table are
 optimized using λ = 1, learning rates ηϕ = 5 × 10−4 and
 ηE = 5 × 10−4, respectively, following the update rule
 in (20) and (21).
+
 b) Stage 2 - HPFML-IC2–ASTER: The IC2–ASTER
 pruning parameters are set to ρ = 0.5, σ = 0.5, α = 1.0,
 k = 5, and B = 32 as described in (28), (29), (31), and (33).
