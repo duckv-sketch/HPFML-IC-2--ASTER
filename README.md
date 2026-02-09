@@ -47,6 +47,7 @@ Prerequisites:
 D. Implementation details
 
 a) Stage 1 - HPFML:
+
 • Data split and local meta-learning setup: For all datasets,
 each client (subject or acquisition device) is treated
 independently. The local dataset of client i is first split
@@ -57,6 +58,7 @@ split. This hierarchical split is consistent with the bi-level
 formulation in method, where the support set is used for
 inner-loop adaptation and the query set is used for outer-
 loop optimization and validation.
+
 • PFML configuration: The PFML procedure is conducted
 for T = 250 communication rounds on SEED-VIG and
 SEED-VRW, and for T = 500 communication rounds on
@@ -66,6 +68,7 @@ by M = 1 outer-loop update step on Qi with learning
 rate β = 10−3, as described in (16) and (18). Mini-batch
 stochastic optimization is used with a batch size of 64
 for both inner and outer updates.
+
 • Personalization ratio scheduling: The head-mixing ratio
 rt is gradually increased following the schedule in (14),
 with an initial ratio r0 and a maximum personalization
