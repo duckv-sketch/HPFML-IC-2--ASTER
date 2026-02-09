@@ -1,0 +1,10 @@
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+data/
+datasets/
+checkpoints/
+runs/
+__pycache__/

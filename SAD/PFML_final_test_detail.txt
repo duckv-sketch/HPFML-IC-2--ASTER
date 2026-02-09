@@ -1,0 +1,20 @@
+Subjects used : 12
+Mean ACC      : 95.00% (Std 1.92%)
+Mean Macro-F1 : 93.09% (Std 2.81%)
+Overall Confusion Matrix:
+[[1251   98]
+ [ 141 2902]]
+
+Per-subject:
+cid=0 N=265 ACC=98.11 Macro-F1=96.85
+cid=1 N=567 ACC=94.71 Macro-F1=92.12
+cid=2 N=344 ACC=94.48 Macro-F1=92.83
+cid=3 N=195 ACC=97.44 Macro-F1=95.49
+cid=4 N=239 ACC=97.07 Macro-F1=96.54
+cid=5 N=152 ACC=96.05 Macro-F1=95.57
+cid=6 N=617 ACC=93.35 Macro-F1=93.32
+cid=7 N=121 ACC=94.21 Macro-F1=93.89
+cid=8 N=510 ACC=93.33 Macro-F1=88.63
+cid=9 N=836 ACC=94.02 Macro-F1=92.69
+cid=10 N=273 ACC=95.60 Macro-F1=88.43
+cid=11 N=273 ACC=91.58 Macro-F1=90.78

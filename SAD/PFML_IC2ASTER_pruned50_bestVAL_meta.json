@@ -1,0 +1,7 @@
+{
+  "best_round": 96,
+  "best_val_acc": 0.9753637313842773,
+  "best_p_rate": 0.591,
+  "ff_dim": 64,
+  "prune_ratio": 0.5
+}
