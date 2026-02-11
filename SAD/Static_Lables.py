@@ -1,7 +1,7 @@
 import numpy as np
 from collections import Counter
 
-CACHE_PATH = r"E:\Duc\Safety Driving (2)\Safety Driving\SAD\SAD_cache_hp0.5_lp50.0_fs250_t-1.0_2.0_final_.npz"
+CACHE_PATH = r"C:\Users\User\Desktop\HPFML-IC-2--ASTER\SAD\SAD_cache_paper_hp1.0_lp50.0_fs128_t-3.0_0.0_aug1x1_minAfterAug0.npz"
 
 data = np.load(CACHE_PATH, allow_pickle=True)
 
